@@ -7,10 +7,10 @@ public class CarTest
     {
         SilverWheel silverWheel = new SilverWheel();
         BlackWheel blackWheel = new BlackWheel();
-        Car carSilver = new Car(silverWheel);
+        Car car = new Car("silverWheel");
         Car carBlack = new Car(blackWheel);
 
-        System.out.println(carSilver.getSilverWheel());
+        System.out.println(car.getSilverWheel());
 
         System.out.println(carBlack.getBlackWheel());
 
